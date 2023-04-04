@@ -45,6 +45,7 @@ body {
 
 .menu {
   display: flex;
+  position: relative;
 }
 
 .menu li {
@@ -69,6 +70,49 @@ body {
 .menu a:hover {
   background-color: #2c71b8;
   color: white;
+}
+
+.menu_child>ul {
+  display: none;
+  position: absolute;
+}
+
+.menu_child:hover .drop_menu {
+  display: block;
+  position: absolute;
+  background-color: #2b71b7;
+  color: white;
+}
+
+.menu_child .angle_icon {
+  height: 15px;
+}
+
+.menu_child .angle_icon:hover {
+  display: block;
+}
+
+.drop_menu {
+  display: none;
+  position: absolute;
+  margin-left: -1px;
+}
+
+.drop_menu>li {
+  display: block;
+}
+
+.drop_menu>li>a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #2b71b7;
+  ;
+}
+
+.drop_menu>li>a:hover {
+  background-color: white;
+  color: #2c71b8;
 }
 
 .search {
@@ -123,48 +167,4 @@ body {
   padding: 3px;
   top: -6px;
   right: -40px;
-}
-
-.menu_child>ul {
-  display: none;
-  position: absolute;
-}
-
-.menu_child:hover .drop_menu {
-  display: block;
-  background-color: #2b71b7;
-  color: white;
-}
-
-.menu_child .angle_icon {
-  /* display: none; */
-  height: 15px;
-}
-
-.menu_child .angle_icon:hover {
-  display: block;
-}
-
-.drop_menu {
-  display: none;
-  position: absolute;
-  margin-left: -1px;
-}
-
-.drop_menu>li {
-  display: block;
-}
-
-.drop_menu>li>a {
-  display: block;
-  text-decoration: none;
-  padding: 10px;
-  color: white;
-  background-color: #2b71b7;
-  ;
-}
-
-.drop_menu>li>a:hover {
-  background-color: white;
-  color: #2c71b8;
 }
