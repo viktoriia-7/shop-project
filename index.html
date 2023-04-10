@@ -17,6 +17,7 @@
 
 <body>
 
+  <!-- Header start -->
   <header class="header">
     <div class="container">
       <div class="row">
@@ -31,7 +32,7 @@
         <div class="col-6">
           <nav>
             <ul class="menu">
-              <li><a href="">Home 1</a></li>
+              <li><a href="">Home</a></li>
               <li class="menu_child">
                 <a href="">Products
                   <img class="angle_icon" src="./images/angle.png"></a>
@@ -45,8 +46,8 @@
                   <li><a href="">Quis nostrud</a></li>
                 </ul>
               </li>
-              <li><a href="">Payment 2</a></li>
-              <li><a href="">Shipping 3</a></li>
+              <li><a href="">Payment</a></li>
+              <li><a href="">Shipping</a></li>
             </ul>
           </nav>
         </div>
@@ -64,9 +65,301 @@
     </div>
   </header>
 
-  <main class="main"></main>
+  <!-- Header End -->
 
-  <footer class="footer"></footer>
+  <!-- Main start -->
+
+  <main class="main">
+    <div class="main_container1">
+      <div class="wrap_slider">
+        <div class="slider">
+          <h4>Slider</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Aside -->
+    <div class="main_container2">
+      <div class="content_wrap">
+        <div class="aside_wrap">
+          <div class="aside">
+            <div class="device_type">
+              <h3>DEVICE TYPE</h3>
+              <input type="radio" id="device_type1" name="device_type" class="device_type_square">
+              <label for="device_type1"><span class="radio_span">Laptop</span></label><br>
+              <input type="radio" id="device_type2" name="device_type" class="device_type_square">
+              <label for="device_type2"><span class="radio_span">Tablet</span></label><br>
+              <br>
+            </div>
+            <div class="device_type">
+              <h3>COLOR</h3>
+              <input type="radio" id="color_type1" name="device_color" class="device_type_square">
+              <label for="color_type1"><span class="radio_span">Black</span></label><br>
+              <input type="radio" id="color_type2" name="device_color" class="device_type_square">
+              <label for="color_type2"><span class="radio_span">Red</span></label><br>
+              <input type="radio" id="color_type3" name="device_color" class="device_type_square">
+              <label for="color_type3"><span class="radio_span">Green</span></label><br>
+              <input type="radio" id="color_type4" name="device_color" class="device_type_square">
+              <label for="color_type4"><span class="radio_span">Blue</span></label><br>
+              <input type="radio" id="color_type5" name="device_color" class="device_type_square">
+              <label for="color_type5"><span class="radio_span">Orange</span></label><br>
+              <br>
+            </div>
+            <div class="device_type">
+              <h3>RAM</h3>
+              <input type="radio" id="ram_type1" name="device_ram" class="device_type_square">
+              <label for="ram_type1"><span class="radio_span"></span>1GB</label><br>
+              <input type="radio" id="ram-type2" name="device_ram" class="device_type_square">
+              <label for="ram_type2"><span class="radio_span"></span>2GB</label><br>
+              <input type="radio" id="ram_type3" name="device_ram" class="device_type_square">
+              <label for="ram_type3"><span class="radio_span"></span>4GB</label><br>
+              <input type="radio" id="ram-type4" name="device_ram" class="device_type_square">
+              <label for="ram_type4"><span class="radio_span"></span>6GB</label><br>
+              <input type="radio" id="ram_type5" name="device_ram" class="device_type_square">
+              <label for="ram_type5"><span class="radio_span"></span>8GB</label><br>
+              <br>
+            </div>
+            <p class="device_type_p">Show more options..</p>
+            <button class="aside_btn">SUBMIT</button>
+          </div>
+        </div>
+
+        <!-- Products -->
+        <div class="products_wrap">
+
+          <div class="products_wrap_title">
+            <p>Home page > Products > Laptops and Tablets</p>
+            <h1>Laptops and Tablets</h1>
+            <select class="sort_price">
+              <option value="price">sort by price</option>
+              <option value="name">sort by name</option>
+              <option value="date">sort by date</option>
+              <option value="popularity">sort by popularity</option>
+            </select>
+          </div>
+
+          <!-- Cards -->
+          <div class="products_cards">
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device1.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$599 <span>25</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device2.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love2">
+                  <img src="./images/love2.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$1250 <span>99</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device3.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$399 <span>50</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device4.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$599 <span>25</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device5.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$1250 <span>99</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device6.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$399 <span>50</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device1.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$599 <span>25</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device2.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$1250 <span>99</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+
+            <div class="main_card">
+              <div class="card_bg_img">
+                <img src="./images/device3.png">
+                <div class="card_icon_size">
+                  <img src="./images/size.png">
+                </div>
+                <div class="card_icon_love">
+                  <img src="./images/love.png">
+                </div>
+              </div>
+
+              <h2>#1 Device Name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><span>TYPE:</span> Laptop</p>
+              <p><span>SIZE:</span> 7 inches</p>
+              <p><span>RAM:</span> 1 GB</p>
+              <div class="price">$399 <span>50</span></div>
+              <button class="btn_styles btn_style1">MORE DETAILS</button>
+              <button class="btn_styles btn_style2">ADD TO CART
+                <img src="./images/basket2.png">
+              </button>
+            </div>
+            <p class="card_load load_more">Load more...</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- Main End -->
+
+  <!-- Footer Start -->
+  <footer class="footer">© Copyring 2017</footer>
 
 
 </body>

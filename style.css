@@ -107,7 +107,6 @@ body {
   padding: 10px;
   color: white;
   background-color: #2b71b7;
-  ;
 }
 
 .drop_menu>li>a:hover {
@@ -167,4 +166,290 @@ body {
   padding: 3px;
   top: -6px;
   right: -40px;
+}
+
+/* Header End */
+
+
+/* Main Start */
+
+
+.main_container1 {
+  height: 400px;
+  border-bottom: 2px solid white;
+}
+
+.wrap_slider {
+  max-width: 1200px;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.slider {}
+
+.main_container2 {}
+
+.content_wrap {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* aside */
+
+.aside_wrap {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.aside {
+  height: 850px;
+  width: 270px;
+  background-color: #568dc6;
+  border-right: 1px solid #fefeff;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  margin-right: 15px;
+}
+
+.device_type {
+  padding: 30px 30px 0 30px;
+}
+
+.device_type_square {
+  display: none;
+}
+
+.device_type_square+label {
+  display: flex;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  margin: 5px 0px;
+}
+
+.device_type_square:checked+label {
+  background: white;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 24px;
+}
+
+label {
+  color: white;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+.radio_span {
+  margin-left: 25px
+}
+
+.device_type_p {
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aside_btn {
+  width: 210px;
+  height: 50px;
+  background-color: #2c71b8;
+  color: white;
+  border: 1px solid white;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/* products */
+
+.products_wrap {
+  max-width: 75%;
+  flex: 0 0 75%;
+}
+
+.products_wrap_title {
+  position: relative;
+}
+
+.products_wrap_title p {
+  font-size: 14px;
+  color: #7ba6d3;
+  padding: 30px 0 20px 0;
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  align-items: center;
+  color: white;
+  padding: 0 0 60px 0;
+  margin-left: 15px;
+}
+
+.sort_price {
+  width: 270px;
+  height: 38px;
+  position: absolute;
+  top: 70px;
+  right: -1px;
+  font-size: 21px;
+  margin-left: 130px;
+  background: #2c71b8;
+  color: white;
+  border: 1px solid white;
+}
+
+.products_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.main_card {
+  width: 270px;
+  height: 654px;
+  border: 1px solid #cadbed;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.card_bg_img {
+  width: 270px;
+  height: 180px;
+  background-color: #cadbed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main_card p {
+  font-size: 21px;
+  color: white;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.main_card p span {
+  font-weight: bold;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.price span {
+  font-size: 24px;
+  vertical-align: 0.6em;
+}
+
+.btn_styles {
+  width: 210px;
+  height: 48px;
+  display: block;
+  margin: 12px auto;
+  color: white;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.btn_style1 {
+  background: #2c71b8;
+  border: 1px solid white;
+}
+
+.btn_style2 {
+  background: #558dc5;
+  border: none;
+}
+
+.card_icon_size {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid #538cc5;
+}
+
+.card_icon_love {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  border: 1px solid #538cc5;
+}
+
+.card_icon_love2 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: #2b71b7;
+}
+
+.card_load {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.load_more {
+  width: 100%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+/* Footer Start */
+.footer {
+  height: 100px;
+  width: 100%;
+  font-size: 21px;
+  color: #2c71b8;
+  text-align: center;
+  line-height: 100px;
+  background-color: #cadbed;
+  align-items: center;
+  margin: 0 auto;
 }
