@@ -452,6 +452,12 @@ h2 {
   text-transform: uppercase;
 }
 
+.btn_styles:hover{
+  background: white;
+  color: #2c71b8;
+  transition: 0.5s;
+}
+
 .btn_style1 {
   background: #2c71b8;
   border: 1px solid white;
@@ -484,18 +490,32 @@ h2 {
   top: 50px;
   right: 10px;
   border: 1px solid #538cc5;
+  cursor: pointer;
+}
+.love_hover{
+  display: none;
+}
+.card_icon_love:hover {
+  background: #538cc5;
 }
 
-.card_icon_love2 {
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  background: #2b71b7;
+.card_icon_love:hover .love_icon{
+  display: none;
+}
+
+.card_icon_love:hover .love_hover{
+  display: block;
+}
+.card_icon_love.active {
+  background: #538cc5;
+}
+
+.card_icon_love.active .love_icon {
+  display: none;
+}
+
+.card_icon_love.active .love_hover {
+  display: block;
 }
 
 .card_load {
@@ -509,6 +529,90 @@ h2 {
   margin: 10px auto;
   text-align: center;
 }
+
+/* Modal Window */
+
+.modal_window{
+  display: none;
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  top: 80px;
+        
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 8;
+}
+
+.close_modal_wrap{
+  float: right;
+}
+
+.close_modal_wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.close_modal_btn {
+  display: block;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./images/btn_close.png);
+  background-size: contain;
+  cursor: pointer;
+}
+
+.modal_window p{
+  font-size: 24px;
+  color: #2c71b8;
+  margin: 40px 0 50px 40px;
+  font-weight: 700;
+}
+
+.form_field input{
+  margin-bottom: 30px;
+  padding: 10px;
+  border:2px solid #2c71b8;
+}
+
+::placeholder{
+  font-size: 14px;
+  color: #2c71b8;
+}
+
+.modal_btn_send{
+width: 50%;
+height: 30px;
+font-weight: 700;
+background:#2c71b8;
+border: none;
+color: white;
+font-size: 16px;
+margin-top: 10px;
+}
+.modal_btn_send:hover{
+  background: white;
+  color:#2c71b8;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.modal_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(69, 69, 69, 0.65);
+}
+
 
 /* Product End */
 

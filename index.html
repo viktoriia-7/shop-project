@@ -57,7 +57,7 @@
             <input type="text" placeholder="search">
             <button type="submit"><img src="images/search.png"></button>
             <img class="basket" src="images/basket.png">
-            <div class="basket_number">4</div>
+            <div class="basket_number" id="products_count">0</div>
           </div>
         </div>
 
@@ -153,8 +153,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -176,8 +177,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love2">
-                  <img src="./images/love2.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -199,8 +201,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -222,8 +225,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -235,7 +239,8 @@
               <div class="price">$599 <span>25</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img class="love_icon" src="./images/basket2.png">
+                <img class="love_hover" src="./images/love2.png">
               </button>
             </div>
 
@@ -245,8 +250,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -268,8 +274,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -291,8 +298,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -314,8 +322,9 @@
                 <div class="card_icon_size">
                   <img src="./images/size.png">
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -336,9 +345,11 @@
                 <img src="./images/device3.png">
                 <div class="card_icon_size">
                   <img src="./images/size.png">
+
                 </div>
-                <div class="card_icon_love">
-                  <img src="./images/love.png">
+                <div class="card_icon_love" id="card_icon_love">
+                  <img class="love_icon" src="./images/love.png">
+                  <img class="love_hover" src="./images/love2.png">
                 </div>
               </div>
 
@@ -356,8 +367,27 @@
             <p class="card_load load_more">Load more...</p>
 
           </div>
+          <!-- Modal window -->
+
+          <div class="modal_window">
+            <div class="close_modal_wrap">
+              <div class="close_modal_btn" id="close_modal_btn"></div>
+            </div>
+            <p>Authorization</p>
+            <div class="form_field">
+              <input type="text" placeholder="Your name">
+              <input type="tel" placeholder="Your number">
+            </div>
+            <div>
+              <button class="modal_btn_send" id="modal_btn_send">Send</button>
+            </div>
+          </div>
+          <div class="modal_overlay"></div>
         </div>
       </div>
+
+    </div>
+    </div>
     </div>
     </div>
   </main>
@@ -366,6 +396,7 @@
 
   <!-- Footer Start -->
   <footer class="footer">© Copyring 2017</footer>
+  <script src="app.js"></script>
 
 
 </body>
