@@ -1,3 +1,26 @@
+//add to cart
+
+///////////////робота з кнопками/////////////////////
+let productsCountEl = document.getElementById("products_count");
+console.log(productsCountEl);
+
+let addToCartBtns = document.querySelectorAll(".btn_style2");
+console.log(addToCartBtns);
+
+//використовуємо цикл////////////////////////
+for (i = 0; i < addToCartBtns.length; i++) {
+  addToCartBtns[i].addEventListener("click", function () {
+    productsCountEl.textContent = +productsCountEl.textContent + 1;
+  })
+}
+//використовуємо метод forEach/////////////////
+// addToCartBtns.forEach((item) => {
+//   item.addEventListener("click", function () {
+//     productsCountEl.textContent = +productsCountEl.textContent + 1;
+//   })
+// });
+
+//////////////////робота з іконками-сердечками//////////////////
 
 let iconsLike = document.querySelectorAll(".card_icon_love");
 console.log(iconsLike);
