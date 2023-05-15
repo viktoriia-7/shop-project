@@ -59,8 +59,6 @@ closeModalBtn.addEventListener("click", function () {
 
 $(".slider").slick({
   dots: true,
-
-
 });
 
 
