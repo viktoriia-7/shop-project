@@ -55,6 +55,14 @@ closeModalBtn.addEventListener("click", function () {
   modalWindow.style.display = 'none';
 })
 
+//Slick
+
+$(".slider").slick({
+  dots: true,
+
+
+});
+
 
 
 

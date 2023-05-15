@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="reset.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,7 +39,7 @@
               <li><a href="">Home</a></li>
               <li class="menu_child">
                 <a href="">Products
-                  <img class="angle_icon" src="./images/angle.png"></a>
+                  <img class="angle_icon" src="./images/angle.png" alt="angle_icon"></a>
                 <ul class="drop_menu">
                   <li><a href="">Lorem ipsum dolor</a></li>
                   <li><a href="">Sit amet</a></li>
@@ -55,8 +59,8 @@
         <div class="col-3">
           <div class="search">
             <input type="text" placeholder="search">
-            <button type="submit"><img src="images/search.png"></button>
-            <img class="basket" src="images/basket.png">
+            <button type="submit"><img src="images/search.png" alt="search"></button>
+            <img class="basket" src="images/basket.png" alt="basket">
             <div class="basket_number" id="products_count">0</div>
           </div>
         </div>
@@ -70,16 +74,21 @@
   <!-- Main start -->
 
   <main class="main">
-    <div class="main_container1">
-      <div class="wrap_slider">
-        <div class="slider">
-          <h4>Slider</h4>
+    <div class="slider_wrap">
+      <div class="slider_container">
+        <div class="col_12">
+          <div class="slider">
+            <div>Slider #1</div>
+            <div>Slider #2</div>
+            <div>Slider #3</div>
+            <div>Slider #4</div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Aside -->
-    <div class="main_container2">
+    <div class="main_container">
       <div class="content_wrap">
         <div class="aside_wrap">
           <div class="aside">
@@ -126,7 +135,6 @@
 
         <!-- Products -->
         <div class="products_wrap">
-
           <div class="products_wrap_title">
             <p>Home page > Products > Laptops and Tablets</p>
             <h1>Laptops and Tablets</h1>
@@ -149,13 +157,13 @@
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device1.png">
+                <img src="./images/device1.png" alt="device_1">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -167,19 +175,19 @@
               <div class="price">$599 <span>25</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device2.png">
+                <img src="./images/device2.png" alt="device_2">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -197,13 +205,13 @@
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device3.png">
+                <img src="./images/device3.png" alt="device_3">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -215,19 +223,19 @@
               <div class="price">$399 <span>50</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device4.png">
+                <img src="./images/device4.png" alt="device_4">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -239,20 +247,19 @@
               <div class="price">$599 <span>25</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img class="love_icon" src="./images/basket2.png">
-                <img class="love_hover" src="./images/love2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device5.png">
+                <img src="./images/device5.png" alt="device_5">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -264,19 +271,19 @@
               <div class="price">$1250 <span>99</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device6.png">
+                <img src="./images/device6.png" alt="device_6">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -288,19 +295,19 @@
               <div class="price">$399 <span>50</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device1.png">
+                <img src="./images/device1.png" alt="device_7">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -312,19 +319,19 @@
               <div class="price">$599 <span>25</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device2.png">
+                <img src="./images/device2.png" alt="device_8">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -336,20 +343,19 @@
               <div class="price">$1250 <span>99</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
 
             <div class="main_card">
               <div class="card_bg_img">
-                <img src="./images/device3.png">
+                <img src="./images/device3.png" alt="device_9">
                 <div class="card_icon_size">
-                  <img src="./images/size.png">
-
+                  <img src="./images/size.png" alt="size">
                 </div>
                 <div class="card_icon_love" id="card_icon_love">
-                  <img class="love_icon" src="./images/love.png">
-                  <img class="love_hover" src="./images/love2.png">
+                  <img class="love_icon" src="./images/love.png" alt="love_icon">
+                  <img class="love_hover" src="./images/love2.png" alt="love_icon">
                 </div>
               </div>
 
@@ -361,7 +367,7 @@
               <div class="price">$399 <span>50</span></div>
               <button class="btn_styles btn_style1">MORE DETAILS</button>
               <button class="btn_styles btn_style2">ADD TO CART
-                <img src="./images/basket2.png">
+                <img src="./images/basket2.png" alt="basket">
               </button>
             </div>
             <p class="card_load load_more">Load more...</p>
@@ -396,6 +402,10 @@
 
   <!-- Footer Start -->
   <footer class="footer">© Copyring 2017</footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="app.js"></script>
 
 
